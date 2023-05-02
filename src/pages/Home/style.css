@@ -1,0 +1,34 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url('../fundos/Adding-a-background-image-in-CSS.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.found {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  background: radial-gradient(white, black);
+  border-radius: 10px;
+  color: black;
+  font-size: 120px;
+  font-weight: 300;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 10);
+}
